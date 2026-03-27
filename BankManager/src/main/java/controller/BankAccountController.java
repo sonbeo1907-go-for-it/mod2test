@@ -90,7 +90,7 @@ public class BankAccountController {
         if (list.isEmpty()) {
             System.out.println("Danh sách trống.");
         } else {
-            list.forEach(System.out::println); // Gọi toString() đã override
+            list.forEach(System.out::println);
         }
     }
 
