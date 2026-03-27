@@ -1,4 +1,7 @@
 package persistance.fileManager;
 
-public interface DataReader {
+import java.util.List;
+
+public interface DataReader<T> {
+    List<T> read(String path);
 }

@@ -1,7 +1,7 @@
 package exception;
 
-public class NotFoundBankAccountException extends RuntimeException {
-  public NotFoundBankAccountException(String message) {
-    super(message);
-  }
+public class NotFoundBankAccountException extends BankManagerException {
+    public NotFoundBankAccountException(String message) {
+        super(message);
+    }
 }
